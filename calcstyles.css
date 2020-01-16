@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+/* BODY STYLES */
+
+body{
+    background: white;
+    background: linear-gradient(black, darkslateblue);
+    font-size: 90px;
+    font-family:'Francois One', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+/* HEADER STYLES */
+
+.header{
+    text-align: center;
+    background-color: rgb(16, 4, 51);
+    color: rgb(48, 101, 131);
+    padding: 5px 0px 5px;
+    border: 5px ;
+}
+
+h1{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+/* CALCULATOR CONTAINER */
+#calculator{
+    width: 590px;
+    height: auto ;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 1.5px;
+    background-color: rgba(220, 220, 220, 0.438);
+    padding-top: 16px;
+}
+
+/* DISPLAY CLEAR AND DELETE STYLES */
+#display{
+    background-color: rgb(0, 0, 0);
+    font-size: 44px;
+    color:rgb(12, 148, 0);
+    height: 69px;
+    border: black 0px;
+    padding-top: 69px;
+    text-align: right;
+    float: none;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.clear, .delete{
+    height: 50px;
+    background-color: rgb(48, 101, 131); ;
+    color:rgb(36, 12, 94);
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+
+#clearDelete{
+    width: 100%;
+}
+
+/* NUMBER ROWS */
+
+button{
+    margin: 10px;
+    border-radius: 33px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color:rgb(44, 44, 99);
+    font-size: 30px;
+    
+}
+
+button:hover{
+    background-color: rgb(48, 101, 131);
+    color: rgba(38, 1, 77, 0.719);
+}
+
+.operator{
+    background-color: rgb(32, 32, 54);
+}
+
+.operator:hover{
+    background-color: rgb(31, 31, 36);
+    color: rgb(104, 90, 165);
+}
+
+#equal{
+    background-color: rgb(48, 101, 131);
+    color: rgb(36, 12, 94);
+}
+
+#equal:hover{
+    background-color: rgb(12, 148, 0);
+}
